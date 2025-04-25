@@ -1,0 +1,6 @@
+
+[+] 192.168.0.1 is live
+Open ports on 192.168.0.1:
+  23/tcp filtered telnet  
+  80/tcp open http TP-LINK WAP http config 
+  1900/tcp open upnp Portable SDK for UPnP devices 1.6.19

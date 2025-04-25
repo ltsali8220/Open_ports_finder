@@ -1,0 +1,29 @@
+IP Address Methods and Attributes:
+
+is_private: Checks if the IP address is private.
+is_global: Checks if the IP address is global.
+is_link_local: Checks if the IP address is link-local.
+is_multicast: Checks if the IP address is multicast.
+is_unspecified: Checks if the IP address is unspecified.
+is_reserved: Checks if the IP address is reserved.
+is_loopback: Checks if the IP address is loopback.
+version: Returns the IP version (4 or 6).
+max_prefixlen: Returns the maximum prefix length.
+packed: Returns the binary representation of the IP address.
+exploded: Returns the full representation of the IP address.
+compressed: Returns the compressed representation of the IP address.
+IP Network Methods and Attributes:
+hosts(): Returns an iterator over usable hosts in the network.
+subnets(): Returns an iterator over subnets of the network.
+supernet(): Returns the supernet containing the network.
+address_exclude(): Returns an iterator over the addresses that are not in the network.
+compare_networks(): Compares two networks.
+prefixlen_diff(): Returns the difference in prefix length between two networks.
+num_addresses: Returns the number of addresses in the network.
+network_address: Returns the network address.
+broadcast_address: Returns the broadcast address.
+hostmask: Returns the host mask.
+netmask: Returns the network mask.
+with_prefixlen: Returns the network with the prefix length.
+with_netmask: Returns the network with the netmask.
+with_hostmask: Returns the network with the host mask.
